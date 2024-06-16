@@ -1,0 +1,345 @@
+
+.page_preHome{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/woman_background.avif");  
+    background-position: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_home{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoAndTitle_align{
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 0.01875rem;
+    line-height: 1.375rem;
+    font-weight: 300;
+}
+
+.logo img{
+    max-width: 45%;
+}
+
+.title p{
+    margin-bottom: 45px;
+    filter: blur(0.01px);
+}
+
+.mutipleChoises{
+    width: 45%;
+}
+
+.lable_multipleChoise label{
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 0.01875rem;
+    line-height: 1.375rem;
+    font-weight: 300;
+    filter: blur(0.01px);
+}
+
+.select_multipleChoise select{
+    width: 50%;
+    padding: 10px;
+    margin-top: 1%;
+    border-color: grey;
+
+}
+
+.buttonToSubmit button{
+    width: 50%;
+    margin-top: 15px;
+    padding: 10px;
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    filter: blur(0.01px);
+}
+
+.buttonToSubmit button:hover{
+    border-color: grey;
+    filter: blur(0.5px);
+}
+
+
+
+
+
+
+
+
+
+
+
+.cookies_accept{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 28%;
+    border: 1px solid grey;
+    position: relative;
+    font-size: 0.875rem;
+    letter-spacing: 0.01875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+}
+
+.DontAccept{
+    margin-top: 10px;
+    margin-left: 70%;
+    margin-bottom: -20px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.ExplainCookies{
+    text-align: left;
+    padding: 20px;
+}
+
+.ExplainCookies span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.div_gene_buttons{
+    width: 100%;
+}
+
+.buttonparametterCookies button{
+    width: 95%;
+    padding: 1.5%;
+    margin-bottom: 1.5%;
+    background-color: white;
+    border: 1.8px solid grey;
+    font-size: 0.775rem;
+    letter-spacing: 0.01875rem;
+    font-weight: 600;
+}
+
+.buttonparametterCookies button:hover{
+    border-color: rgb(199, 199, 199);
+}
+
+.buttonacceptCookies button{
+    width: 95%;
+    padding: 1.5%;
+    background-color: black;
+    color: white;
+    font-size: 0.775rem;
+    letter-spacing: 0.01875rem;
+    font-weight: 600;
+}
+
+.buttonacceptCookies button:hover{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+.buttonneccessaryCookies button{
+    width: 95%;
+    margin-bottom: 1.5%;
+    padding: 1.5%;
+    background-color: black;
+    color: white;
+    font-size: 0.775rem;
+    letter-spacing: 0.01875rem;
+    font-weight: 600;
+}
+
+.buttonneccessaryCookies button:hover{
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+span {
+    color: black;
+    text-decoration: black;
+}
+
+span:hover{
+    color: rgba(0, 0, 0, 0.705);
+}
+
+
+.paramsConseptions{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    height: 90%;
+    border: 2px solid rgba(224, 224, 224, 0.836);
+    position: relative;
+    font-size: 0.813rem;
+    letter-spacing: 0.01875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+}
+
+.paramstitle{
+    text-align: left;
+    font-size: 1.3em;
+    letter-spacing: 0.01875rem;
+    line-height: 1.375rem;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.privateLifeButton button {
+    width: 95%;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px; 
+    margin: 0 auto;
+}
+
+.privateLifeButton button:hover {
+    background-color: rgba(204, 204, 204, 0.281);
+}
+
+.privateLifeButton_different button {
+    width: 95%;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px; 
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.privateLifeButton_different button:hover {
+    background-color: rgba(204, 204, 204, 0.281);
+}
+
+.spanFleche::before {
+    content: ">";
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.checkk {
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    width: 1rem;
+    height: 1rem;
+    margin: 0.25rem 0.75rem 0.25rem 0.25rem;
+    border-radius: 0px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.checkk:checked {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2); /* Change background color to indicate checked state */
+    box-shadow: none;
+}
+
+.div_gene_buttons button:hover{
+    cursor: pointer;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);    
+    font-size: 0.825em;
+    letter-spacing: 0.01875rem;
+    line-height: 0.775rem;
+    font-weight: 500;
+}
+
+.linkNavbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.linkNavbar ul a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+.linkNavbar ul a:hover {
+    text-decoration: underline;
+}
+
+.imageLogoMango img {
+    height: 25px;
+}
+
+.buttonNavbarMango {
+    display: flex;
+    align-items: center;
+}
+
+.buttonNavbarMango > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+}
+
+.buttonNavbarMango button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.emojii{
+    margin-bottom: 5px;
+}
+
+
+.choixconnection {
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    width: 400%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
